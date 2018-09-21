@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		72820966212AE1C500FA4E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72820965212AE1C500FA4E9A /* AppDelegate.swift */; };
-		72820968212AE1C500FA4E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72820967212AE1C500FA4E9A /* ViewController.swift */; };
+		72820968212AE1C500FA4E9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72820967212AE1C500FA4E9A /* MainViewController.swift */; };
 		7282096B212AE1C500FA4E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72820969212AE1C500FA4E9A /* Main.storyboard */; };
 		7282096D212AE1C600FA4E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7282096C212AE1C600FA4E9A /* Assets.xcassets */; };
 		72820970212AE1C600FA4E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7282096E212AE1C600FA4E9A /* LaunchScreen.storyboard */; };
+		72F8682D21319302008545F6 /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F8682C21319302008545F6 /* FontViewController.swift */; };
+		72F8682F2131A74E008545F6 /* FontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F8682E2131A74E008545F6 /* FontTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72820962212AE1C500FA4E9A /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72820965212AE1C500FA4E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72820967212AE1C500FA4E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72820967212AE1C500FA4E9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7282096A212AE1C500FA4E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7282096C212AE1C600FA4E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7282096F212AE1C600FA4E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72820971212AE1C600FA4E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F8682C21319302008545F6 /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
+		72F8682E2131A74E008545F6 /* FontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				72820965212AE1C500FA4E9A /* AppDelegate.swift */,
-				72820967212AE1C500FA4E9A /* ViewController.swift */,
 				72820969212AE1C500FA4E9A /* Main.storyboard */,
+				72820967212AE1C500FA4E9A /* MainViewController.swift */,
+				72F8682C21319302008545F6 /* FontViewController.swift */,
+				72F8682E2131A74E008545F6 /* FontTableViewCell.swift */,
 				7282096C212AE1C600FA4E9A /* Assets.xcassets */,
 				7282096E212AE1C600FA4E9A /* LaunchScreen.storyboard */,
 				72820971212AE1C600FA4E9A /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72820968212AE1C500FA4E9A /* ViewController.swift in Sources */,
+				72F8682F2131A74E008545F6 /* FontTableViewCell.swift in Sources */,
+				72820968212AE1C500FA4E9A /* MainViewController.swift in Sources */,
 				72820966212AE1C500FA4E9A /* AppDelegate.swift in Sources */,
+				72F8682D21319302008545F6 /* FontViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MUYU76UJF;
 				INFOPLIST_FILE = MemeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MUYU76UJF;
 				INFOPLIST_FILE = MemeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
