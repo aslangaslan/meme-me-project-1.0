@@ -4,7 +4,7 @@ Udacity Nanodegree Education Projects
 
 ## Getting Started
 
-The application change the recorded sound's pitch.
+The application creates a meme image from selected image. The image can be select from a library or taken by a camera.
 
 ## License
 
